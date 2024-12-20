@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+#add-expense {
+  margin-bottom: 20px;
+}
+
+#add-expense input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+#add-expense button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#expense-list {
+  margin-top: 20px;
+}
+
+#expenses {
+  list-style: none;
+  padding: 0;
+}
+
+#expenses li {
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#expenses li button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#expenses li button:hover {
+  background-color: darkred;
+}
+
+
+
